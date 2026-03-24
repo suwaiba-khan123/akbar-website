@@ -43,6 +43,11 @@ export const Header = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink to={routeConst.products} className={navClass}>
+                  Products
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to={routeConst.contact} className={navClass}>
                   Contact
                 </NavLink>
@@ -63,6 +68,11 @@ export const Header = () => {
             <li>
               <NavLink to={routeConst.about} className={navClass}>
                 About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to={routeConst.products} className={navClass}>
+                Products
               </NavLink>
             </li>
             <li>
