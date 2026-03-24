@@ -65,7 +65,7 @@ export const Home = () => {
 
       <h1>Home</h1>
       <p>This is home page with common header and footer</p>
-<div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4">
         <ItemWithCard />
         <ItemWithCard />
         <ItemWithCard />
